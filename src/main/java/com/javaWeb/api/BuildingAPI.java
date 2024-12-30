@@ -18,9 +18,9 @@ public class BuildingAPI {
     // API lấy danh sách khách hàng theo tên
     @GetMapping(value = "/api/building")
     public List<BuildingDTO> getCustomer(@RequestParam(name="name", required = false) String name,
-    									 @RequestParam(name="districtID", required = false) Long district)
+    									 @RequestParam(name="districtID", required = false) Long District)
     {
-    	List<BuildingDTO> customers = customerService.findAll(name, district);
+    	List<BuildingDTO> customers = customerService.findAll(name, District);
     	return customers;
     }
 
