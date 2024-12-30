@@ -1,6 +1,0 @@
-com\javaWeb\Beans\ErrorResponeDTO.class
-com\javaWeb\Beans\BuildingDTO.class
-com\javaWeb\Exception\FeldRequiredException.class
-com\javaWeb\api\BuildingAPI.class
-com\javaWeb\Application.class
-com\javaWeb\ControllerAdvice\ControllerAdvisor.class
